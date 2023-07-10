@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "ex1": "ts-node-dev --respawn --transpile-only ./src/ex1.ts",
+    "ex2": "ts-node-dev --respawn --transpile-only ./src/ex2.ts",
+    "ex3": "ts-node-dev --respawn --transpile-only ./src/ex3.ts",
+    "ex4": "ts-node-dev --respawn --transpile-only ./src/ex4.ts",
+    "ex5": "ts-node-dev --respawn --transpile-only ./src/ex5.ts",
+    "ex6": "ts-node-dev --respawn --transpile-only ./src/ex6.ts",
+    "ex7": "ts-node-dev --respawn --transpile-only ./src/ex7.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bertimaiara",
+  "dependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
